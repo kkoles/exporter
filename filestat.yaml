@@ -1,0 +1,6 @@
+exporter:
+  listen_address: ':9943'
+  metrics_path: /metrics
+  
+  files:
+    - patterns: ["/tmp/test_1.lock","/tmp/test_2.lock"]
